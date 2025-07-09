@@ -1,59 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Three.js Text Example - AdFlix</title>
-  <style>
-    body { margin: 0; }
-    canvas { display: block; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Flix</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
-<script>
-  // Scene setup
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer({antialias: true});
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  document.body.appendChild(renderer.domElement);
-
-  // Lighting
-  const light = new THREE.DirectionalLight(0xffffff, 1);
-  light.position.set(0, 1, 2).normalize();
-  scene.add(light);
-
-  // Load font and create text
-  const loader = new THREE.FontLoader();
-  loader.load('https://cdn.jsdelivr.net/npm/three@0.128.0/examples/fonts/helvetiker_regular.typeface.json', function(font) {
-    const geometry = new THREE.TextGeometry('AdFlix', {
-      font: font,
-      size: 5,
-      height: 1,
-      curveSegments: 12,
-      bevelEnabled: true,
-      bevelThickness: 0.1,
-      bevelSize: 0.1,
-      bevelOffset: 0,
-      bevelSegments: 5
-    });
-    geometry.center();
-    const material = new THREE.MeshPhongMaterial({ color: 0xff3366 });
-    const mesh = new THREE.Mesh(geometry, material);
-    scene.add(mesh);
-
-    camera.position.z = 20;
-
-    animate();
-    function animate() {
-      requestAnimationFrame(animate);
-      mesh.rotation.y += 0.01;
-      renderer.render(scene, camera);
-    }
-  });
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
