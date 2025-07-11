@@ -1,34 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+// src/App.jsx
+import { useEffect } from 'react'
+import gsap from 'gsap'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    const title = "AD FLIX";
+    const container = document.querySelector('.title-container');
+
+    const html = [...title].map(letter => {
+      return letter === " " 
+        ? `<span class="letter space">&nbsp;</span>`
+        : `<span class="letter">${letter}</span>`;
+    }).join('');
+
+    container.innerHTML = html;
+
+    const tl = gsap.timeline({
+      repeat: 0,
+      ease: "elastic.out(1, 0.3)"
+    });
+
+    tl.from(".letter", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      stagger: {
+        amount: 0.5,
+        ease: "bounce.out"
+      }
+    })
+    .to(".letter", {
+      y: 0,
+      scale: 1.2,
+      duration: 0.3,
+      stagger: {
+        amount: 0.2
+      }
+    })
+    .to(".letter", {
+      scale: 1,
+      duration: 0.2
+    });
+  }, [])
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <div className="title-container">
+        {/* Animation will handle the content */}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 

@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+.title-container {
+  font-size: 4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 0.1em;
+}
+
+.letter {
+  display: inline-block;
+  color: #e50914; /* Netflix red */
+}
+
+.space {
+  width: 0.5em;
+}
