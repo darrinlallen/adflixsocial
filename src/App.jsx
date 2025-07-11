@@ -1,5 +1,6 @@
 
-// src/App.jsx
+// src/App.jsx new
+//ad flix app
 import { useEffect } from 'react'
 import gsap from 'gsap'
 import './App.css'
