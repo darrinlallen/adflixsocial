@@ -2,16 +2,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ad Flix</title>
-    <style>
-        body { margin: 0; }
-        canvas { display: block; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad flix Animation</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+    }
+    .title {
+      font-size: 4rem;
+      color: #ff0000; /* Changed to red */
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .title span {
+      display: inline-block;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: #aaa;
+      opacity: 0;
+    }
+  </style>
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js"></script>
+  <div class="container">
+    <div class="title">
+      <span>A</span>
+      <span>d</span>
+      <span> </span>
+      <span>f</span>
+      <span>l</span>
+      <span>i</span>
+      <span>x</span>
+    </div>
+    <div class="subtitle">coming soon</div>
+  </div>
+
+  <script>
+    // Animate each letter of "Ad flix"
+    gsap.from(".title span", {
+      y: 50,
+      opacity: 0,
+      duration: 5, // Set duration to 5 seconds
+      stagger: 0.2, // Keep stagger for sequential animation
+      ease: "elastic.out(1, 0.5)"
+    });
+
+    // Animate the "coming soon" text
+    gsap.to(".subtitle", {
+      opacity: 1,
+      duration: 5, // Set duration to 5 seconds
+      delay: 1.5, // Keep delay to start after letters
+      ease: "power2.out"
+    });
+  </script>
 </body>
 </html>
