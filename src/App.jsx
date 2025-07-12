@@ -7,7 +7,7 @@ import image from './IMG_0991.svg'; // Ensure the path is correct
 function App() {
   useEffect(() => {
     const title = "AD FLIX";
-    const subtitle = "COMING FALL 2025";
+    const subtitle = "COMING FALL 2025  --- powererd by GSAP";
     const container = document.querySelector('.title-container');
     const subtitleContainer = document.querySelector('.subtitle-container');
 
