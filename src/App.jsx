@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const title = "AD FLIX";
     const subtitle = "COMING FALL 2025";
-    const subtitle2 = "*COMING FALL 2025 -----powered by GSAP*";
+    const subtitle2 = "*COMING FALL 2025 *";
     const container = document.querySelector('.title-container');
     const subtitleContainer = document.querySelector('.subtitle-container');
 
