@@ -70,9 +70,7 @@ function App() {
           {/* Subtitle animation will handle this */}
         </div>
       </div>
-      <div className="svg-container">
-        <img src={image} alt="Description of SVG" />
-      </div>
+      
     </div>
   );
 }
