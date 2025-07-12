@@ -7,7 +7,8 @@ import image from './IMG_0991.svg'; // Ensure the path is correct
 function App() {
   useEffect(() => {
     const title = "AD FLIX";
-    const subtitle = "COMING FALL 2025  --- powererd by GSAP";
+    const subtitle = "COMING FALL 2025";
+    const subtitle2 = "*COMING FALL 2025 -----powered by GSAP*";
     const container = document.querySelector('.title-container');
     const subtitleContainer = document.querySelector('.subtitle-container');
 
@@ -18,10 +19,12 @@ function App() {
     const subtitleHtml = [...subtitle].map(letter => {
       return `<span class="subtitle-letter">${letter}</span>`;
     }).join('');
-
+const subtitleHtml2 = [...subtitle2].map(letter => {
+      return `<span class="subtitle-letter">${letter}</span>`;
+    }).join('');
     container.innerHTML = html;
     subtitleContainer.innerHTML = subtitleHtml;
-
+    subtitleContainer.innerHTML = subtitleHtml2;
     const tl = gsap.timeline({
       repeat: -1, // Repeat indefinitely
       yoyo: true, // Yoyo effect for back-and-forth
