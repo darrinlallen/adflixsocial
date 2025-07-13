@@ -26,7 +26,7 @@ const Logo = React.forwardRef((props, ref) => (
         filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))'
       }}
     >
-    Number one place on the web to watch tv commercials.
+     watch tv commercials on web.
     </text>
   </svg>
 ));
