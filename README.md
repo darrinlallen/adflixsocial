@@ -1,6 +1,6 @@
 # AD FLIX coming Fall of 2025
 
-![Project Overview](https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg)  { width="50%" }
+<img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
 
 Welcome to **AD FLIX**! This innovative project is designed to revolutionize the shopping experience by allowing consumers to engage with commercials in a way that informs and assists their purchasing decisions.
 
