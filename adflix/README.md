@@ -1,19 +1,12 @@
-# Project Name
+# AD FLIX
 
-![Project Logo](https://your-image-link.com/logo.png)
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/project-name)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/project-name)
-![License](https://img.shields.io/github/license/yourusername/project-name)
-![Build Status](https://img.shields.io/travis/yourusername/project-name/main)
-
-Welcome to **Project Name**! This project aims to [briefly explain project purpose]. Whether you're a seasoned developer or just getting started, this project is designed with simplicity and functionality in mind.
+Welcome to **AD FLIX**! This project aims to [briefly explain project purpose]. Whether you're a seasoned developer or just getting started, this project is designed with simplicity and functionality in mind.
 
 ## 🚀 Installation Instructions
 
-To get started with **Project Name**, follow these easy steps:
+To get started with **AD FLIX**, follow these easy steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/project-name.git
-   cd project-name
+   git clone https://github.com/yourusername/ad-flix.git
+   cd ad-flix
