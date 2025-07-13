@@ -1,10 +1,13 @@
 
 // src/App.jsx
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react' // Add useRef import
 import gsap from 'gsap'
 import './App.css'
+import {ReactComponent as Logo} from './text.svg'
 
 function App() {
+  const svgRef = useRef(null); // Create the ref
+
   useEffect(() => {
     const title = "AD FLIX";
     const container = document.querySelector('.title-container');
@@ -49,6 +52,9 @@ function App() {
     <div>
       <div className="title-container">
         {/* Animation will handle the content */}
+      </div>
+      <div>
+        <Logo ref={svgRef} className="my-svg" />
       </div>
     </div>
   )

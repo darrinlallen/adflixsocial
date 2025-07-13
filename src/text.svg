@@ -1,0 +1,26 @@
+
+// src/text.svg
+export const ReactComponent = () => (
+  <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ff5555;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <text 
+      x="50%" 
+      y="50%" 
+      textAnchor="middle" 
+      dominantBaseline="middle" 
+      fill="url(#gradient)" 
+      fontSize="48px" 
+      fontFamily="Arial Black"
+    >
+      Ad Flix is the number one place on the web to watch tv commercials.
+Watch to help you shop.  This tv website is tentatively scheduled to launch late Fall 2025.
+    </text>
+  </svg>
+);
+
+export default ReactComponent;
