@@ -39,10 +39,6 @@ AD FLIX transforms watching commercials into a valuable shopping aid by providin
 - **User Reviews and Ratings**: View feedback from other consumers to gauge product satisfaction.
 - **Compare Products**: Side-by-side comparisons of similar products featured in commercials.
 
-## 🛠️ Contribution
-
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
-
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
