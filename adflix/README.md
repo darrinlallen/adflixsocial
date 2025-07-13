@@ -1,6 +1,6 @@
 # Project Name
 
-![Project Logo](https://via.placeholder.com/150)
+![Project Logo](https://your-image-link.com/logo.png)
 
 ![GitHub stars](https://img.shields.io/github/stars/yourusername/project-name)
 ![GitHub forks](https://img.shields.io/github/forks/yourusername/project-name)
