@@ -1,5 +1,4 @@
 # AD FLIX coming Fall of 2025
-# The goal is to Monopolize advertising revenue !!!!
 
 ![Project Overview](https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg)
 
