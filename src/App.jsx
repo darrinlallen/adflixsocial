@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const title = "AD FLIX";
-    const comingSoon = "FALL 2025 [scroll down]";
+    const comingSoon = "FALL 2025";
     
     const container = titleRef.current;
     const comingSoonContainer = comingSoonRef.current;
