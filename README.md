@@ -1,5 +1,8 @@
 # AD FLIX coming Fall of 2025
-#The goal is to Monopolize advertising revenue !!!!
+# The goal is to Monopolize advertising revenue !!!!
+
+![Project Overview](https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg)
+
 Welcome to **AD FLIX**! This innovative project is designed to revolutionize the shopping experience by allowing consumers to engage with commercials in a way that informs and assists their purchasing decisions.
 
 ## 📜 Introduction
@@ -8,11 +11,39 @@ Created by **Darrin Allen**, AD FLIX aims to bridge the gap between advertising 
 
 Imagine having a curated stream of product advertisements that are not only relevant but also informative and engaging. With AD FLIX, users can browse, watch, and choose products that fit their lifestyle, all while discovering new and exciting brands.
 
-## 🚀 Installation Instructions
+## 🏷️ Features
 
-To get started with **AD FLIX**, follow these easy steps:
+### Feature 1: Browse Commercials
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ad-flix.git
-   cd ad-flix
+AD FLIX offers an intuitive interface for users to explore a wide range of commercials tailored to their preferences. With advanced filtering and recommendation algorithms, users can easily discover products and brands that align with their interests. Key features of the browsing experience include:
+
+- **Personalized Recommendations**: Get suggestions based on your viewing history and preferences.
+- **Advanced Filters**: Narrow down commercials by category, brand, product type, and more.
+- **Watchlist**: Save interesting commercials to watch later or share with friends.
+- **Engagement Metrics**: View popularity and engagement stats to make informed choices.
+
+### Feature 2: Get the Latest Commercials
+
+Stay ahead of the curve with AD FLIX's feature that showcases the newest and most trending commercials. Users can:
+
+- **View Latest Additions**: A dedicated section for the most recently uploaded commercials.
+- **Trending Now**: Discover which commercials are currently gaining traction among users.
+- **Notifications**: Opt-in for alerts on new releases from your favorite brands or categories.
+- **Curated Playlists**: Explore themed playlists that highlight the latest in various industries.
+
+### Feature 3: Watch Online to Help Shopping
+
+AD FLIX transforms watching commercials into a valuable shopping aid by providing:
+
+- **Detailed Product Information**: Access to in-depth details, specifications, and features directly within commercials.
+- **Interactive Elements**: Clickable links and buttons to learn more or purchase products instantly.
+- **User Reviews and Ratings**: View feedback from other consumers to gauge product satisfaction.
+- **Compare Products**: Side-by-side comparisons of similar products featured in commercials.
+
+## 🛠️ Contribution
+
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
