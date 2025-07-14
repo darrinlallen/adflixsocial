@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import './App.css';
 import Logo from './Logo';
 import useAnimation from './assets/useAnimation';
-import ninjaVideo from './assets/Ninja.mp4'; // Assuming you kept the import method
+import ninjaVideo from '/Ninja.mp4'; // Assuming you kept the import method
 
 function App() {
   // 👇👇👇 ADD THESE LINES BACK IN 👇👇👇
