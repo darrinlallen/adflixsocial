@@ -34,7 +34,7 @@ function App() {
         
         <div ref={videoRef} className="video-container">
           <video 
-            src="/glass.mp4" 
+            src="/Ninja.mp4" 
             autoPlay 
             loop 
             muted 
