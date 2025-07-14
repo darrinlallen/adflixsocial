@@ -4,15 +4,18 @@ import React, { useRef } from 'react';
 import './App.css';
 import Logo from './Logo';
 import useAnimation from './assets/useAnimation';
+import ninjaVideo from './assets/Ninja.mp4'; // Assuming you kept the import method
 
 function App() {
+  // 👇👇👇 ADD THESE LINES BACK IN 👇👇👇
   const svgRef = useRef(null);
   const titleRef = useRef(null);
   const comingSoonRef = useRef(null);
   const netflixRef = useRef(null);
   const videoRef = useRef(null);
+  // 👆👆👆 END OF FIX 👆👆👆
 
-  useAnimation(titleRef, comingSoonRef);
+  useAnimation(titleRef, comingSoonRef); // Now this line will work!
 
   return (
     <div className="app-container">
@@ -34,7 +37,7 @@ function App() {
         
         <div ref={videoRef} className="video-container">
           <video 
-            src="./assets/Ninja.mp4" 
+            src={ninjaVideo} 
             autoPlay 
             loop 
             muted 
