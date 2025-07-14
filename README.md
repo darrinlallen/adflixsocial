@@ -7,7 +7,7 @@ Welcome to **AD FLIX**! This innovative project is designed to revolutionize the
 
 ## 📜 Introduction
 
-Created by **Darrin Allen**, AD FLIX aims to bridge the gap between advertising and consumer decision-making. In today's fast-paced world, making informed purchasing choices can be overwhelming. AD FLIX provides a unique platform where customers can easily access and interact with commercials tailored to their interests and needs, ensuring they have all the information necessary to make confident buying decisions.
+Created by **Darrin Allen**, AD FLIX aims to bridge the gap between advertising and consumer decision-making. In today's fast-paced world, making informed purchasing choices can be overwhelming. AD FLIX provides a unique platform where customers can easily access and interact with commercials tailored to their interests and needs, ensuring they have all the information necessary to make confident buying decisions.  enjoy
 
 Imagine having a curated stream of product advertisements that are not only relevant but also informative and engaging. With AD FLIX, users can browse, watch, and choose products that fit their lifestyle, all while discovering new and exciting brands.
 
