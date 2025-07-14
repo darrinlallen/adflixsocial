@@ -15,7 +15,7 @@ Imagine having a curated stream of product advertisements that are not only rele
 
 ### Feature 1: Browse Commercials
 
-AD FLIX offers an intuitive interface for users to explore a wide range of commercials tailored to their preferences. With advanced filtering and recommendation algorithms, users can easily discover products and brands that align with their interests. Key features of the browsing experience include:
+AD FLIX offers an intuitive interface for users to explore a wide range of commercials tailored to their preferences. This is a social chatbot to aid in shopping using tv commercials. With advanced filtering and recommendation algorithms, users can easily discover products and brands that align with their interests. Key features of the browsing experience include:
 
 - **Personalized Recommendations**: Get suggestions based on your viewing history and preferences.
 - **Advanced Filters**: Narrow down commercials by category, brand, product type, and more.
