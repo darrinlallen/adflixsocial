@@ -157,4 +157,49 @@
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
+/* src/App.css */
+.app-container {
+  /* Existing styles */
+}
+
+.content-wrapper {
+  /* Existing styles */
+}
+
+.main-title-section {
+  /* Existing styles */
+}
+
+.title-container {
+  /* Existing styles */
+}
+
+.coming-soon-container {
+  /* Existing styles */
+}
+
+.divider {
+  /* Existing styles */
+}
+
+.netflix-container {
+  /* Existing styles */
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px; /* Optional: Adjust the max-width as needed */
+  margin: 20px auto; /* Adds some space around the video container */
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds a rounded corner effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
+}
+
+/* Add any other styles as needed */
 /* ... (rest of the styles remain the same) ... */

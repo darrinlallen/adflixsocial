@@ -1,86 +1,18 @@
 
 // src/App.jsx
-import { useEffect, useRef } from 'react'
-import gsap from 'gsap'
-import './App.css'
-import Logo from './Logo'
+import React, { useRef } from 'react';
+import './App.css';
+import Logo from './Logo';
+import useAnimation from './assets/useAnimation';
 
 function App() {
   const svgRef = useRef(null);
   const titleRef = useRef(null);
   const comingSoonRef = useRef(null);
   const netflixRef = useRef(null);
+  const videoRef = useRef(null);
 
-  useEffect(() => {
-    const title = "AD FLIX";
-    const comingSoon = "FALL 2025";
-    
-    const container = titleRef.current;
-    const comingSoonContainer = comingSoonRef.current;
-
-    const html = [...title].map(letter => {
-      return letter === " " 
-        ? `<span class="main-letter space">&nbsp;</span>`
-        : `<span class="main-letter">${letter}</span>`;
-    }).join('');
-
-    const comingSoonHtml = [...comingSoon].map(letter => {
-      return letter === " " 
-        ? `<span class="coming-soon-letter space">&nbsp;</span>`
-        : `<span class="coming-soon-letter">${letter}</span>`;
-    }).join('');
-
-    container.innerHTML = html;
-    comingSoonContainer.innerHTML = comingSoonHtml;
-
-    const tl = gsap.timeline({
-      repeat: -1,
-      ease: "elastic.out(1, 0.3)",
-      repeatDelay: 1
-    });
-
-    tl.from(".main-letter", {
-      y: -100,
-      opacity: 0,
-      duration: 1,
-      stagger: {
-        amount: 0.5,
-        ease: "bounce.out"
-      }
-    })
-    .to(".main-letter", {
-      y: 0,
-      scale: 1.2,
-      duration: 0.3,
-      stagger: {
-        amount: 0.2
-      }
-    })
-    .to(".main-letter", {
-      scale: 1,
-      duration: 0.2
-    });
-
-    // Coming soon animation
-    tl.from(".coming-soon-letter", {
-      y: 50,
-      opacity: 0,
-      duration: 0.8,
-      stagger: {
-        amount: 0.5,
-        ease: "power2.out"
-      }
-    }, "-=0.5")
-    
-    // Reset animation
-    .to([".main-letter", ".coming-soon-letter"], {
-      opacity: 0,
-      y: 50,
-      duration: 0.5,
-      delay: 2
-    });
-
-  }, [])
+  useAnimation(titleRef, comingSoonRef);
 
   return (
     <div className="app-container">
@@ -99,9 +31,20 @@ function App() {
         <div ref={netflixRef} className="netflix-container">
           <Logo ref={svgRef} className="my-svg" />
         </div>
+        
+        <div ref={videoRef} className="video-container">
+          <video 
+            src="/glass.mp4" 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="video"
+          />
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
