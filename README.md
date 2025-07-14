@@ -1,4 +1,4 @@
-# AD FLIX is a  chatbot used to data-mine commercials to aid shoppers, it is coming Fall of 2025  
+# AD FLIX is a  chatbot used to search for commercials to aid shoppers, it is coming Fall of 2025  
 # https://adflixsocial.vercel.app/
 
 <img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
