@@ -1,4 +1,4 @@
-# AD FLIX coming Fall of 2025  
+# AD FLIX chatbot USE COMMERCIAL TO aid shoppers coming Fall of 2025  
 # https://adflixsocial.vercel.app/
 
 <img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
