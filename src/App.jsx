@@ -35,15 +35,6 @@ function App() {
           <Logo ref={svgRef} className="my-svg" />
         </div>
         
-        <div ref={videoRef} className="video-container">
-          <video 
-            src={ninjaVideo} 
-            autoPlay 
-            loop 
-            muted 
-            playsInline 
-            className="video"
-          />
         </div>
       </div>
     </div>
