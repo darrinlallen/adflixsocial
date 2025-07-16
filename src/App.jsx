@@ -23,9 +23,6 @@ function App() {
 
         <div className="divider"></div>
 
-        <div ref={netflixRef} className="netflix-container">
-          <Logo ref={svgRef} className="my-svg" />
-        </div>
       </div>
     </div>
   );
