@@ -26,16 +26,6 @@ function App() {
         <div ref={netflixRef} className="netflix-container">
           <Logo ref={svgRef} className="my-svg" />
         </div>
-
-        <video
-          ref={videoRef}
-          className="ninja-video"
-          src={ninjaVideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
       </div>
     </div>
   );
