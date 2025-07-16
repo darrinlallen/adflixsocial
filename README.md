@@ -1,4 +1,4 @@
-# AD FLIX is an artificial intelligence chatbot used to search for commercials to aid shoppers, it is coming Fall of 2025  
+# AD FLIX is an artificial intelligence chatbot. It is coming Fall of 2025  
 # https://www.adflix.tv
 
 <img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
