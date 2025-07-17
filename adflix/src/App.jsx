@@ -9,7 +9,7 @@ function App() {
   const svgRef = useRef(null); // Create the ref
 
   useEffect(() => {
-    const title = "AD FLIX";
+    const title = "AD FLIX streaming";
     const container = document.querySelector('.title-container');
 
     const html = [...title].map(letter => {
