@@ -3,7 +3,7 @@
 
 <img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
 
-Welcome to **AD FLIX**! This innovative project is designed to revolutionize the shopping experience by allowing consumers to engage with commercials in a way that informs and assists their purchasing decisions. enjoy
+Welcome to **AD FLIX**! After a unsuccessful career as an affiliate marketer I created Ad Flix!!   This innovative project is designed to revolutionize the shopping experience by allowing consumers to engage with commercials in a way that informs and assists their purchasing decisions. enjoy
 
 ## 📜 Introduction
 
