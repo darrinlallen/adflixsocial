@@ -1,32 +1,41 @@
-import React, { useRef } from 'react';
-import './App.css';
-import Logo from './Logo';
-import useAnimation from './assets/useAnimation';
-import ninjaVideo from '/Ninja.mp4';
+
+import { useEffect } from 'react'
+import './App.css'
 
 function App() {
-  const svgRef = useRef(null);
-  const titleRef = useRef(null);
-  const comingSoonRef = useRef(null);
-  const netflixRef = useRef(null);
-  const videoRef = useRef(null);
+  useEffect(() => {
+    const title = "AD FLIX";
+    const container = document.querySelector('.title-container');
 
-  useAnimation(titleRef, comingSoonRef);
+    const html = [...title].map((letter, i) =>
+      letter === " "
+        ? `<span class="letter space">&nbsp;</span>`
+        : `<span class="letter">${letter}</span>`
+    ).join('');
+
+    container.innerHTML = html;
+
+    // Pulsate animation for each letter
+    import('gsap').then(({ default: gsap }) => {
+      gsap.to('.letter', {
+        scale: 1.25,
+        repeat: -1,
+        yoyo: true,
+        stagger: 0.1,
+        duration: 0.7,
+        ease: "power1.inOut"
+      });
+    });
+  }, []);
 
   return (
-    <div className="app-container">
-      <div className="content-wrapper">
-        <div className="main-title-section">
-          <div ref={titleRef} className="title-container" />
-          <div ref={comingSoonRef} className="coming-soon-container" />
-        </div>
-
-        <div className="divider"></div>
-
+    <div className="hero-section">
+      <div className="title-container" />
+      <div className="hero-content">
+        <p className="hero-subtitle">Streaming commercials</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
-
+export default App

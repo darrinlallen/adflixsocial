@@ -1,205 +1,61 @@
 
-/* src/App.css */
-.app-container {
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #181818;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-.content-wrapper {
-  width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  padding: 0;
-  margin: 0;
-}
-
-.main-title-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  min-height: 70vh;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 2rem 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  background: #181818;
+  color: #fff;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .title-container {
+  font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #e50914; /* Netflix red */
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 0 20px;
-}
-
-.coming-soon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 1rem;
-  padding: 0 20px;
+  gap: 0.1em;
 }
 
 .letter {
   display: inline-block;
-  font-size: clamp(4rem, 15vw, 12rem); /* Responsive font size */
-  font-weight: bold;
-  font-family: 'Arial Black', sans-serif;
-  color: #ff0000;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1;
-}
-
-.coming-soon-letter {
-  display: inline-block;
-  font-size: clamp(2.5rem, 5vw, 2rem); /* Responsive font size */
-  font-weight: bold;
-  font-family: 'Arial', sans-serif;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.5);
-  line-height: 1;
+  color: #e50914;
+  transition: transform 0.2s;
 }
 
 .space {
-  margin: 0 0.5rem;
+  width: 0.5em;
 }
 
-.divider {
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(to right, transparent, #ff0000, transparent);
-  margin: 0;
+.hero-content {
+  margin-top: 0;
+  text-align: center;
 }
 
-.netflix-container {
-  width: 100%;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0.85;
+  margin-bottom: 0;
 }
-
-.my-svg {
-  width: 100%;
-  height: auto;
-  display: block;
-  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.3));
-}
-
-.my-svg:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
-}
-
-/* Remove default margins and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .main-title-section {
-    padding: 1rem 0;
-    min-height: 60vh;
-  }
-  
-  .netflix-container {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .main-title-section {
-    min-height: 50vh;
-  }
-}
-/* src/App.css */
-/* ... (previous styles remain the same) ... */
-
-.main-letter {
-  display: inline-block;
-  font-size: clamp(4rem, 15vw, 12rem);
-  font-weight: bold;
-  font-family: 'Arial Black', sans-serif;
-  color: #ff0000;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1;
-}
-.netflix-container {
-  width: 100%;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
-
-.my-svg {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.my-svg:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
-}
-/* src/App.css */
-.app-container {
-  /* Existing styles */
-}
-
-.content-wrapper {
-  /* Existing styles */
-}
-
-.main-title-section {
-  /* Existing styles */
-}
-
-.title-container {
-  /* Existing styles */
-}
-
-.coming-soon-container {
-  /* Existing styles */
-}
-
-.divider {
-  /* Existing styles */
-}
-
-.netflix-container {
-  /* Existing styles */
-}
-
-.video-container {
-  width: 100%;
-  max-width: 800px; /* Optional: Adjust the max-width as needed */
-  margin: 20px auto; /* Adds some space around the video container */
-  display: flex;
-  justify-content: center;
-}
-
-.video {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Optional: Adds a rounded corner effect */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
-}
-
-/* Add any other styles as needed */
-/* ... (rest of the styles remain the same) ... */
