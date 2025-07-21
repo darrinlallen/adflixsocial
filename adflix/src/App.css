@@ -56,3 +56,51 @@
 .space {
   width: 0.5em;
 }
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: #181818;
+  color: #fff;
+  padding: 2rem;
+}
+
+.title-container {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.my-svg {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero-cta {
+  background: #ff0057;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-cta:hover {
+  background: #e6004c;
+}
