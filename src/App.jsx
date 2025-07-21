@@ -7,7 +7,7 @@ function App() {
     const title = "AD FLIX";
     const container = document.querySelector('.title-container');
 
-    const html = [...title].map((letter, i) =>
+    const html = [...title].map((letter) =>
       letter === " "
         ? `<span class="letter space">&nbsp;</span>`
         : `<span class="letter">${letter}</span>`
@@ -25,6 +25,12 @@ function App() {
         duration: 0.7,
         ease: "power1.inOut"
       });
+      // Slide in subtitle
+      gsap.fromTo(
+        '.hero-subtitle',
+        { x: 100, opacity: 0 },
+        { x: 0, opacity: 0.85, duration: 1, delay: 0.5, ease: "power2.out" }
+      );
     });
   }, []);
 
@@ -32,10 +38,9 @@ function App() {
     <div className="hero-section">
       <div className="title-container" />
       <div className="hero-content">
-        <p className="hero-subtitle">Streaming commercials</p>
+        <p className="hero-subtitle">Streaming commercials  beginning FALL 2025</p>
       </div>
     </div>
   )
 }
-
 export default App
