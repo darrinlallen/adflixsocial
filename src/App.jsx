@@ -38,7 +38,7 @@ function App() {
     <div className="hero-section">
       <div className="title-container" />
       <div className="hero-content">
-        <p className="hero-subtitle">Streaming commercials .... beginning FALL 2025</p>
+        <p className="hero-subtitle">Searchable streaming commercials .... beginning FALL 2025</p>
         <div className="hero-enter">
           <a href="/home.html" className="enter-btn">ENTER</a>
         </div>
