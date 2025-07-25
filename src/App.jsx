@@ -38,7 +38,36 @@ function App() {
     <div className="hero-section">
       <div className="title-container" />
       <div className="hero-content">
-        <p className="hero-subtitle">Searchable streaming commercials .... beginning FALL 2025</p>
+        <p className="hero-subtitle">Searchable streaming commercials ...</p>
+        <div className="features-container">
+          <div className="feature-card">
+            <h3>Browse Commercials</h3>
+            <ul>
+              <li>Personalized Recommendations</li>
+              <li>Advanced Filters</li>
+              <li>Watchlist</li>
+              <li>Engagement Metrics</li>
+            </ul>
+          </div>
+          <div className="feature-card">
+            <h3>Get the Latest Commercials</h3>
+            <ul>
+              <li>View Latest Additions</li>
+              <li>Trending Now</li>
+              <li>Notifications</li>
+              <li>Curated Playlists</li>
+            </ul>
+          </div>
+          <div className="feature-card">
+            <h3>Watch Online to Help Shopping</h3>
+            <ul>
+              <li>Detailed Product Information</li>
+              <li>Interactive Elements</li>
+              <li>User Reviews and Ratings</li>
+              <li>Compare Products</li>
+            </ul>
+          </div>
+        </div>
         <div className="hero-enter">
           <a href="/home.html" className="enter-btn">ENTER</a>
         </div>

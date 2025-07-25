@@ -1,3 +1,48 @@
+/* Features Card Styles */
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2.5rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  min-width: 260px;
+  max-width: 320px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.13);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.feature-card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+  list-style: disc inside;
+}
+
+.feature-card li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  opacity: 0.92;
+}
 
 body, html {
   height: 100%;
