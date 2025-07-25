@@ -38,8 +38,7 @@ function App() {
     <div className="hero-section">
       <div className="title-container" />
       <div className="hero-content">
-        <p className="hero-subtitle">Searchable streaming commercials to help you shop.....
-          COMING FALL 2025
+        <p className="hero-subtitle">Searchable streaming commercials to help you shop....
         </p>
         <div className="features-container">
           <div className="feature-card">
