@@ -38,7 +38,9 @@ function App() {
     <div className="hero-section">
       <div className="title-container" />
       <div className="hero-content">
-        <p className="hero-subtitle">Searchable streaming commercials ...to help you shop</p>
+        <p className="hero-subtitle">Searchable streaming commercials to help you shop.....
+          COMING FALL 2025
+        </p>
         <div className="features-container">
           <div className="feature-card">
             <h3>Browse Commercials</h3>
