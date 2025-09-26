@@ -1,4 +1,5 @@
 # Droid Car Alarm — Intelligent Protection for Your Vehicle and Loved Ones
+<img src="https://github.com/darrinlallen/adflixsocial/blob/main/src/IMG_0991.svg" width="50%" alt="Project Overview">
 
 Welcome to **Droid Car Alarm**! In an era where technology meets safety, Droid Car Alarm stands out as an innovative solution designed to protect both your vehicle and the precious lives inside it. Combining advanced artificial intelligence with integrated cameras and speakers, Droid Car Alarm proactively prevents tragedies like child and pet hot car deaths, while also delivering cutting-edge theft prevention technology.
 
